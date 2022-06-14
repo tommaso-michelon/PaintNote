@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.34" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/drawable/black_background.xml" value="0.34" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/drawable/blue_background.xml" value="0.34" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/drawable/erase_background.xml" value="0.33" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/drawable/erase_background_selected.xml" value="0.33" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/drawable/green_background.xml" value="0.34" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/drawable/ic_add_background.xml" value="0.1705" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/drawable/ic_brush_background.xml" value="0.33" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/drawable/ic_brush_foreground.xml" value="0.33" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/drawable/ic_delete_background.xml" value="0.34" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/drawable/ic_edit_background.xml" value="0.33" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/drawable/ic_launcher_background.xml" value="0.34" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/drawable/ic_save_background.xml" value="0.34" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/drawable/red_background.xml" value="0.34" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/drawable/white_background.xml" value="0.34" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/layout/activity_note.xml" value="0.22" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/layout/activity_start.xml" value="0.25" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/layout/dialog_add.xml" value="0.3359375" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/layout/list_item.xml" value="0.33" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/layout/paint_view.xml" value="0.3359375" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/menu/brush_menu.xml" value="0.3359375" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/mipmap-anydpi-v26/ic_add.xml" value="0.34" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/mipmap-anydpi-v26/ic_add_round.xml" value="0.1705" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/mipmap-anydpi-v26/ic_brush.xml" value="0.23" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/mipmap-anydpi-v26/ic_brush_round.xml" value="0.33" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/mipmap-anydpi-v26/ic_delete.xml" value="0.34" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/mipmap-anydpi-v26/ic_delete_round.xml" value="0.33" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/mipmap-anydpi-v26/ic_eraser.xml" value="0.23" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.34" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.23" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/mipmap-anydpi-v26/ic_save.xml" value="0.33" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/mipmap-anydpi-v26/ic_share.xml" value="0.34" />
+        <entry key="..\:/Users/tommy/Desktop/Uni/ProgrammazioneSistemiEmbedded/PaintNote/app/src/main/res/xml/filepaths.xml" value="0.20364583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

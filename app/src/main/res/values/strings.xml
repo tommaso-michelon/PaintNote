@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PaintNote</string>
+    <string name="note_title">Title</string>
+    <string name="image_content">image</string>
+    <string name="color_brush">change color brush</string>
+    <string name="save">save</string>
+    <string name="erase">erase</string>
+    <string name="color_white_background">change in white color background</string>
+    <string name="color_black_background">change in black color background</string>
+    <string name="add">Add</string>
+    <string name="no_notes">No notes available</string>
+</resources>

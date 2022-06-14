@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.NoteActivity">
+
+    <LinearLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@color/teal_300"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/background">
+
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:autofillHints="AUTOFILL_HINT_NOT_APPLICABLE"
+            android:backgroundTint="@color/black"
+            android:hint="@string/note_title"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:maxLength="20"
+            android:minHeight="48dp"
+            android:singleLine="true"
+            android:text="@string/note_title"
+            android:textColor="@color/black"
+            android:textColorHint="@color/hint_text" />
+
+        <ImageButton
+            android:id="@+id/saveBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="20dp"
+            android:src="@drawable/ic_save_foreground"
+            android:contentDescription="@string/save"
+            app:tint="@color/black"
+            android:background="@color/teal_300"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_300"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topbar">
+
+        <ImageButton
+            android:id="@+id/eraserBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:foreground="@mipmap/ic_eraser_foreground"
+            android:background="@drawable/erase_background"
+            android:contentDescription="@string/erase" />
+
+        <ImageButton
+            android:id="@+id/whiteBackBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/white_background"
+            android:contentDescription="@string/color_white_background" />
+
+        <ImageButton
+            android:id="@+id/blackBackBtn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/black_background"
+            android:contentDescription="@string/color_black_background" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/paint"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/background">
+
+        <include layout="@layout/paint_view" />
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/brush_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:contentDescription="@string/image_content"
+        android:src="@drawable/ic_brush_foreground"
+        app:backgroundTint="@color/teal_300"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/default_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:clickable="false"
+        android:visibility="invisible"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toTopOf="@id/brush_fab"
+        app:layout_constraintEnd_toEndOf="@id/brush_fab"
+        android:contentDescription="@string/color_brush"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/red_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/default_fab"
+        app:layout_constraintEnd_toEndOf="@id/default_fab"
+        app:fabSize="mini"
+        android:layout_marginBottom="15dp"
+        android:visibility="invisible"
+        android:clickable="false"
+        android:backgroundTint="@color/red"
+        app:borderWidth="0dp"
+        android:contentDescription="@string/color_brush"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/green_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/red_fab"
+        app:layout_constraintEnd_toEndOf="@id/red_fab"
+        app:fabSize="mini"
+        android:layout_marginBottom="15dp"
+        android:visibility="invisible"
+        android:clickable="false"
+        android:backgroundTint="@color/green"
+        app:borderWidth="0dp"
+        android:contentDescription="@string/color_brush"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/blue_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@id/green_fab"
+        app:layout_constraintEnd_toEndOf="@id/green_fab"
+        app:fabSize="mini"
+        android:layout_marginBottom="15dp"
+        android:visibility="invisible"
+        android:clickable="false"
+        android:backgroundTint="@color/blue"
+        app:borderWidth="0dp"
+        android:contentDescription="@string/color_brush"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
