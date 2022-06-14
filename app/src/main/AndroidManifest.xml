@@ -11,8 +11,7 @@
         android:theme="@style/Theme.PaintNote">
         <activity
             android:name=".activity.MainActivity"
-            android:exported="true"
-            android:screenOrientation="portrait">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
